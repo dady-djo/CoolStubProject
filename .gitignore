@@ -1,9 +1,10 @@
 #################
-## Intellij project files
+## Android Studio project files
 *.iml
 *.ipr
 *.iws
 .idea/
+local.properties
 
 #################
 # TeamCity is a build add-in
