@@ -1,0 +1,18 @@
+#################
+## Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#################
+# TeamCity is a build add-in
+_TeamCity*
+
+#################
+# generated files
+build/
+
+#################
+# Gradle
+.gradle/
