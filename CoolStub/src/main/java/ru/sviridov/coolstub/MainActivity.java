@@ -1,10 +1,13 @@
 package ru.sviridov.coolstub;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
+
+import ru.sviridov.yuilibrary.MainLibActivity;
 
 public class MainActivity extends Activity {
 
@@ -19,6 +22,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,R.string.toast_text,Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, MainLibActivity.class));
             }
         });
     }
