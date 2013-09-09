@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="btn_text">Push me</string>
+    <string name="btn_text2">Push me2</string>
     <string name="toast_text">Pushed!</string>
 
 </resources>
