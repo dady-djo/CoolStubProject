@@ -11,8 +11,8 @@ apply plugin: 'android'
 repositories {
     mavenCentral()
     ivy {
-        ivyPattern 'http://localhost:8081/artifactory/libs-release-local/47167dc287016be9/[module]/ivy-[revision].xml'
-        artifactPattern 'http://localhost:8081/artifactory/libs-release-local/47167dc287016be9/[module]/[revision]/[artifact]-[revision].aar'
+        ivyPattern 'http://dady-djo:ibnparol@localhost:8888/repository/download/[module]/[revision]/teamcity-ivy.xml'
+        artifactPattern 'http://localhost:8888/repository/download/[module]/[revision]/[artifact].aar'
     }
 }
 
@@ -28,7 +28,7 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
-    compile ('47167dc287016be9:YuiLibrary:unspecified') {
+    compile ('org:yuilibrary:lastFinished') {
         artifact {
             name = 'YuiLibrary'
             type = 'aar'
